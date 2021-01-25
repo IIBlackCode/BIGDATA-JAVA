@@ -10,9 +10,10 @@
 <%@include file="/PAGE/include/link.jsp" %>
 <h1>[2020 - 11 - 10 수업]</h1>
 <ul>
-	<li><a href="work01/EmployeeAdd.html">work01</a></li>
-	<li><a href="work02/index.html">work02</a></li>
-	<li><a href="/JSP/20201110/MyServlet">MyServlet</a></li>
+	<li><a href="testWeb2/work01/EmployeeAdd.html">EmployeeAdd.html</a></li>
+	<li><a href="testWeb2/work02/index.html">index.html</a></li>
+	<li><a href="/JSP/20201110_MyServlet">20201110_MyServletvlet</a></li>
+	<li><a href="/JSP/20201110_MyServlet2">20201110_MyServlet2</a></li>
 </ul>
 </body>
 </html>

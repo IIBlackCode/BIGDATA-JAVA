@@ -11,8 +11,13 @@ public class EmployeeDao {
 	public static Connection getConnection() {
 		Connection conn = null;
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@10.10.14.125:1521:company","scott","1234");
+			Class.forName("org.mariadb.jdbc.Driver");
+//			Class.forName("oracle.jdbc.driver.OracleDriver");
+			String dataBaseUrl = "jdbc:mysql://49.50.166.134:3306/CORONA?serverTimezone=UTC";
+			String dataBaseId = "root";
+			String dataBasePw = "1234";
+//			conn = DriverManager.getConnection("jdbc:oracle:thin:@10.10.14.125:1521:company","scott","1234");
+			conn = DriverManager.getConnection(dataBaseUrl,dataBaseId,dataBasePw);
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}

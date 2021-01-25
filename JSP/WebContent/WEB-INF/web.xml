@@ -13,6 +13,27 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
+	<!-- 2020 11 09 -->
+	<servlet>
+		<servlet-name>MyServlet</servlet-name>
+		<servlet-class>Study.JSP_2020_11_09.test.MyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyServlet</servlet-name>
+		<url-pattern>/20201109_MyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>MyServlet2</servlet-name>
+		<servlet-class>Study.JSP_2020_11_09.test2.MyServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyServlet2</servlet-name>
+		<url-pattern>/20201109_MyServlet2</url-pattern>
+	</servlet-mapping>
+
+	<!-- 2020 11 10 -->
+	
+	
 	<!-- 2020 11 11 -->
 	<!-- MyTestServer4에서 호출 -->
 	<context-param>
@@ -42,7 +63,7 @@
 	<!-- 2020 11 12 -->
 	<servlet>
 		<servlet-name>20201112_MyServlet10</servlet-name>
-		<servlet-class>Study.JSP_2020_11_12.testWeb3.test.MyServlet10</servlet-class>
+		<servlet-class>Study.JSP_2020_11_12.test.MyServlet10</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>20201112_MyServlet10</servlet-name>
@@ -50,7 +71,7 @@
 	</servlet-mapping>
 	<filter>
 		<filter-name>20201112_MyFilter</filter-name>
-		<filter-class>Study.JSP_2020_11_12.testWeb3.test.MyFilter</filter-class>
+		<filter-class>Study.JSP_2020_11_12.test.MyFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>20201112_MyFilter</filter-name>

@@ -7,7 +7,8 @@
 <title>로그인</title>
 </head>
 <body>
-	<form action="ControllerServlet" method="post">
+	<!-- <form action="ControllerServlet" method="post"> -->
+	<form action="/JSP/ControllerServlet" method="post">
 	이름 : <input type="text" name="name"><br>
 	비밀번호 : <input type="password" name="password"><br>
 	<input type="submit" value="로그인">

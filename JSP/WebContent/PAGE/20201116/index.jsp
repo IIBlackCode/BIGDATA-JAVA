@@ -11,7 +11,7 @@
 <h1>[2020 - 11 - 16 수업]</h1>
 <h3>testWeb4</h3>
 <ul>
-	<li><a href="<%=pathHeader %>/PAGE/20201116/testWeb4/login.html">login.html</a></li>
+	<li><a href="<%=pathHeader %>/PAGE/20201116/testWeb5/index.jsp">login.jsp</a></li>
 </ul>
 </body>
 </html>
